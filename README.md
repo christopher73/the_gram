@@ -3,11 +3,8 @@ MERN stack
 
 
 ├── README.md
-
 ├── controllers
-
 │   └── controller.js
-
 ├── index.js
 
 ├── models
