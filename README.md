@@ -1,4 +1,4 @@
 # the_gram
 MERN stack 
 
-![Dir tree](./tree)
+![Dir tree](./tree.png)
