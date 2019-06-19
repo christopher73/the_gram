@@ -1,4 +1,5 @@
 # the_gram
-MERN stack 
 
-![Dir tree](./tree.png)
+MERN stack
+
+![Dir tree](./README_assets/dir.png)

@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const serverInfo = { port: 7777, serverName: 'THE GRAM' };
+const serverInfo = { port: 7770, serverName: 'THE GRAM' };
 const dbInfo = { port: 27017, dbName: 'the_gram' };
 const app = express();
 const PORT = process.env.PORT || serverInfo.port;
