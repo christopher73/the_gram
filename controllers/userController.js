@@ -3,8 +3,11 @@ const db = require('../models');
 // Defining methods for the postsController
 module.exports = {
   findById: function(req, res) {
-    db.User.findById(req.params.id)
-      .then(dbModel => res.json(dbModel))
+    db.User.findById({ _id: req.params.id })
+      .then(dbModel => {
+        console.log(dbModel);
+        return res.json(dbModel);
+      })
       .catch(err => res.status(422).json(err));
   },
   create: function(req, res) {
