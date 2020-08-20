@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/christopher73/the_gram#readme",
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "express": "^4.17.1",
     "if-env": "^1.0.4",
     "mongoose": "^5.5.15"
